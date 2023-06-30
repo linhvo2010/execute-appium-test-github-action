@@ -27,3 +27,4 @@ jobs:
           root_directory: '/'
           command: 'mvn test'
           wait_for_execution: 'true'
+          
