@@ -18,7 +18,7 @@ jobs:
           executor_password: ${{ secrets.EXECUTOR_PASSWORD }} # get this from our support team
           git_repo_url: https://github.com/sonhmle/azure-devops-sample-java-prod.git
           git_repo_branch: master
-          git_repo_ssh_key: ${{ secrets.GIT_REPO_SSH_KEY }}
+#           git_repo_ssh_key: ${{ secrets.GIT_REPO_SSH_KEY }}
           app_id: 'kobiton-store:v624080'
           use_custom_device: 'true'
           device_name: 'Galaxy S20 FE 5G'
