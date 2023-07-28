@@ -21,8 +21,8 @@ jobs:
 #           git_repo_ssh_key: ${{ secrets.GIT_REPO_SSH_KEY }}
           app_id: 'kobiton-store:v624080'
           use_custom_device: 'true'
-          device_name: 'Galaxy S20 FE 5G'
-          device_platform_version: '12'
+          device_name: 'Galaxy S21 5G'
+          device_platform_version: '13'
           device_platform: 'Android'
           root_directory: '/'
           command: 'mvn test'
